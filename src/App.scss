@@ -1,0 +1,98 @@
+html, body {
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+.christmas-card {
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  background: radial-gradient(#ED1C25 0%, #E51E26 32.11%, #D1222A 58.09%, #AF2A30 100%);
+}
+
+.christmas-card {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-image: url("./images/snow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  .moon-img {
+    position: absolute;
+    top: 100%;
+    transform: translateY(-80%);
+    max-width: 677px;
+    max-height: 677px;
+    width: 30%;
+  }
+  .tree-1-img {
+    position: absolute;
+    top: 100%;
+    z-index: 3;
+  }
+  .tree-2-img {
+    position: absolute;
+    top: 100%;
+    z-index: 2;
+  }
+  .tree-3-img {
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+  }
+  .paper-1-img {
+    position: absolute;
+    transform: scale(5);
+    transition: 3.6s;
+  }
+  .paper-2-img {
+    position: absolute;
+    transform: scale(5);
+    transition: 3s;
+  }
+  &.stage-1 {
+    .moon-img {
+      top: 50%;
+      transform: translateY(-50%);
+      transition: 1.5s;
+    }
+    .tree-1-img {
+      transform: translateY(-100%);
+      transition: 1.75s;
+    }
+    .tree-2-img {
+      top: 52%;
+      transition: 1.5s;
+    }
+    .tree-3-img {
+      top: 50%;
+      transition: 1.75s;
+    }
+  }
+  &.stage-2 {
+    .moon-img {
+      transform: translateY(-50%) scale(0.75);
+      transition: 3s;
+    }
+    .paper-1-img {
+      transform: scale(1);
+    }
+    .paper-2-img {
+      transform: scale(1);
+    }
+  }
+  &.stage-3 {
+    
+  }
+}
