@@ -21,51 +21,104 @@ body,
 }
 
 .christmas-card {
-  display: flex;
-  justify-content: center;
   position: relative;
-  background-image: url("./images/snow.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  .moon-img {
+  .snow-img {
     position: absolute;
-    top: 100%;
-    transform: translateY(-80%);
-    max-width: 677px;
-    max-height: 677px;
-    width: 30%;
+    z-index: 0;
   }
-  .tree-1-img {
-    position: absolute;
-    top: 100%;
-    z-index: 3;
+  .christmas-card-animation-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    z-index: 1;
+    .moon-img {
+      position: absolute;
+      top: 100%;
+      transform: translateY(-80%);
+      max-width: 677px;
+      max-height: 677px;
+      width: 30%;
+    }
+    .tree-1-img {
+      position: absolute;
+      top: 100%;
+      z-index: 3;
+    }
+    .tree-2-img {
+      position: absolute;
+      top: 100%;
+      z-index: 2;
+    }
+    .tree-3-img {
+      position: absolute;
+      top: 100%;
+      z-index: 1;
+    }
+    .paper-1-img {
+      position: absolute;
+      transform: scale(5);
+      transition: 2.6s;
+      z-index: 4;
+    }
+    .santa-img {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateX(-100%);
+      transition-duration: 5s;
+      z-index: 5;
+    }
+    .paper-2-img {
+      position: absolute;
+      transform: scale(5);
+      transition: 2s;
+      z-index: 6;
+    }
   }
-  .tree-2-img {
+  .mc-img {
     position: absolute;
-    top: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transition: 2s;
+    transform: translate(-50%, -50%);
     z-index: 2;
   }
-  .tree-3-img {
+  .play-img,
+  .replay-img {
     position: absolute;
-    top: 100%;
-    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    z-index: 3;
   }
-  .paper-1-img {
-    position: absolute;
-    transform: scale(5);
-    transition: 3.6s;
+  .replay-img {
+    display: none;
   }
-  .paper-2-img {
-    position: absolute;
-    transform: scale(5);
-    transition: 3s;
+  &.start {
+    .moon-img,
+    .tree-1-img,
+    .tree-2-img,
+    .tree-3-img,
+    .paper-1-img,
+    .santa-img,
+    .paper-2-img,
+    .mc-img {
+      transition: none !important;
+    }
+    .play-img {
+      display: none;
+    }
   }
   &.stage-1 {
     .moon-img {
       top: 50%;
       transform: translateY(-50%);
-      transition: 1.5s;
+      transition: 1s;
     }
     .tree-1-img {
       transform: translateY(-100%);
@@ -77,13 +130,17 @@ body,
     }
     .tree-3-img {
       top: 50%;
-      transition: 1.75s;
+      transition: 1.25s;
+    }
+    .play-img {
+      display: none;
     }
   }
   &.stage-2 {
     .moon-img {
-      transform: translateY(-50%) scale(0.75);
-      transition: 3s;
+      transform: translateY(-50%) scale(0.80);
+      transition-delay: 1.2s;
+      transition-duration: 1.2s;
     }
     .paper-1-img {
       transform: scale(1);
@@ -91,8 +148,45 @@ body,
     .paper-2-img {
       transform: scale(1);
     }
+    .tree-1-img {
+      opacity: 0;
+      transition-delay: 1.2s;
+      transition-duration: 1.2s;
+    }
+    .tree-2-img {
+      top: 48%;
+      transform: scale(0.75);
+      transition-delay: 1.2s;
+      transition-duration: 1.2s;
+    }
+    .tree-3-img {
+      top: 46%;
+      transform: scale(0.75);
+      transition-delay: 1.2s;
+      transition-duration: 1.2s;
+    }
   }
   &.stage-3 {
-    
+    .santa-img {
+      top: 25%;
+      left: 100%;
+      transform: translateX(0);
+    }
+  }
+  &.stage-4 {
+    .christmas-card-animation-wrapper {
+      transform: scale(10);
+      transition: 6s;
+    }
+    .mc-img {
+      transition-delay: 3s;
+      opacity: 1;
+    }
+  }
+  &.finish {
+    .replay-img {
+      display: block;
+      transition-delay: 6s;
+    }
   }
 }
