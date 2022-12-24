@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.5fa7c6ba.css",
-    "main.js": "/static/js/main.6bee2647.js",
-    "static/media/christmas-ringtone.mp3": "/static/media/christmas-ringtone.df83f6902c63021440ba.mp3",
-    "static/media/tree2.svg": "/static/media/tree2.83619ec437f33ebfb2e0997141bc2a93.svg",
-    "static/media/tree3.svg": "/static/media/tree3.a855fcb2966bcdb9a944d3a955bdeeea.svg",
-    "static/media/snow.svg": "/static/media/snow.3be1363dfa07db1011503d00e81fc535.svg",
-    "static/media/santa.svg": "/static/media/santa.1c6a8fe901ac4f72c4dce9f557e8115b.svg",
-    "static/media/tree1.svg": "/static/media/tree1.b0e6718c342fd299087d286d0471bb4c.svg",
-    "static/media/paper2.svg": "/static/media/paper2.3e4b5cb019222e0e5f80f399d976f9ef.svg",
-    "static/media/mc.svg": "/static/media/mc.4bc7a1ebb034a9c98e2076ecbdcc20a9.svg",
-    "static/media/paper1.svg": "/static/media/paper1.c01846c3e0d857c4a9fba4ff8a3b7886.svg",
-    "static/media/replay.svg": "/static/media/replay.bc888226f3e73ccaae9a2c4a0a934233.svg",
-    "static/media/play.svg": "/static/media/play.a011f672c549b3fc47d54679cb7db184.svg",
-    "index.html": "/index.html",
-    "static/media/moon.svg": "/static/media/moon.b261d9c17e1b2546611fe87847dd46eb.svg",
-    "main.5fa7c6ba.css.map": "/static/css/main.5fa7c6ba.css.map",
-    "main.6bee2647.js.map": "/static/js/main.6bee2647.js.map"
+    "main.css": "/Gavrushuk/reactjs-christmas-card/static/css/main.5fa7c6ba.css",
+    "main.js": "/Gavrushuk/reactjs-christmas-card/static/js/main.7e5a5497.js",
+    "static/media/christmas-ringtone.mp3": "/Gavrushuk/reactjs-christmas-card/static/media/christmas-ringtone.df83f6902c63021440ba.mp3",
+    "static/media/tree2.svg": "/Gavrushuk/reactjs-christmas-card/static/media/tree2.83619ec437f33ebfb2e0997141bc2a93.svg",
+    "static/media/tree3.svg": "/Gavrushuk/reactjs-christmas-card/static/media/tree3.a855fcb2966bcdb9a944d3a955bdeeea.svg",
+    "static/media/snow.svg": "/Gavrushuk/reactjs-christmas-card/static/media/snow.3be1363dfa07db1011503d00e81fc535.svg",
+    "static/media/santa.svg": "/Gavrushuk/reactjs-christmas-card/static/media/santa.1c6a8fe901ac4f72c4dce9f557e8115b.svg",
+    "static/media/tree1.svg": "/Gavrushuk/reactjs-christmas-card/static/media/tree1.b0e6718c342fd299087d286d0471bb4c.svg",
+    "static/media/paper2.svg": "/Gavrushuk/reactjs-christmas-card/static/media/paper2.3e4b5cb019222e0e5f80f399d976f9ef.svg",
+    "static/media/mc.svg": "/Gavrushuk/reactjs-christmas-card/static/media/mc.4bc7a1ebb034a9c98e2076ecbdcc20a9.svg",
+    "static/media/paper1.svg": "/Gavrushuk/reactjs-christmas-card/static/media/paper1.c01846c3e0d857c4a9fba4ff8a3b7886.svg",
+    "static/media/replay.svg": "/Gavrushuk/reactjs-christmas-card/static/media/replay.bc888226f3e73ccaae9a2c4a0a934233.svg",
+    "index.html": "/Gavrushuk/reactjs-christmas-card/index.html",
+    "static/media/play.svg": "/Gavrushuk/reactjs-christmas-card/static/media/play.a011f672c549b3fc47d54679cb7db184.svg",
+    "static/media/moon.svg": "/Gavrushuk/reactjs-christmas-card/static/media/moon.b261d9c17e1b2546611fe87847dd46eb.svg",
+    "main.5fa7c6ba.css.map": "/Gavrushuk/reactjs-christmas-card/static/css/main.5fa7c6ba.css.map",
+    "main.7e5a5497.js.map": "/Gavrushuk/reactjs-christmas-card/static/js/main.7e5a5497.js.map"
   },
   "entrypoints": [
     "static/css/main.5fa7c6ba.css",
-    "static/js/main.6bee2647.js"
+    "static/js/main.7e5a5497.js"
   ]
 }
