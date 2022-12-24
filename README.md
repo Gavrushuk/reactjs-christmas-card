@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-## [https://gavrushuk.github.io/reactjs-christmas-card/](Demo)
+## [Demo](https://gavrushuk.github.io/reactjs-christmas-card/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
