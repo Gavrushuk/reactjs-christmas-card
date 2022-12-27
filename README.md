@@ -2,6 +2,8 @@
 
 ## [Demo](https://gavrushuk.github.io/reactjs-christmas-card/)
 
+# Not responsive, layout for 1920x1280
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
