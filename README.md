@@ -3,3 +3,5 @@
 ## [Demo](https://gavrushuk.github.io/reactjs-christmas-card/)
 
 ## No responsive. Best resolution to watch 1920x1280
+
+## Design from [Figma Community](https://www.figma.com/community/)
