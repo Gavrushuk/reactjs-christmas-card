@@ -1,4 +1,4 @@
-# Christmas Card created with ReactJs library
+# Animated Christmas Card created with ReactJs library
 
 ## No responsive. Best resolution to watch 1920x1280
 
